@@ -1,0 +1,92 @@
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: var(--fundo-card);
+    
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 2px solid var(--borda);
+
+    .header-container{
+        width: 100%;
+        max-width: var(--max-width);
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .logo {
+            display: flex;         
+            align-items: center;   
+            gap: 10px;             
+
+            .logo-image {
+                width: 5rem;         
+                height: auto;
+            }
+
+            .logo-text {
+            display: flex;
+            flex-direction: row;
+
+            .text1 {
+                color: var(--texto-principal);
+                font-size: 4rem;
+                font-weight: bold;
+            }
+
+            .text2 {
+                color: var(--cor-ods);
+                font-size: 4rem;
+                font-weight: bold;
+            }
+            }
+        }
+
+        nav {
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+            }
+
+            .btn-sair {
+                display: flex;
+                align-items: center;
+                gap: 8px; 
+                
+                border: 2px solid var(--cor-ods); 
+                background-color: transparent;
+                color: var(--cor-ods); 
+                
+                padding: 8px 20px;
+                border-radius: 8px; 
+                font-weight: 600;
+                font-size: 2rem;
+                transition: all 0.2s ease-in-out;
+
+            
+            .material-symbols-outlined {
+                font-size: 2.2rem; 
+                color: inherit;    
+            }
+        }
+
+           
+            .btn-sair:hover {
+                background-color: var(--cor-ods-hover); 
+                color: var(--fundo-card);  
+                cursor: pointer;
+            }
+        }
+    }
+}
+
