@@ -1,0 +1,137 @@
+
+
+main{
+    display: flex;
+    justify-content: center;
+
+    .main-container{
+        max-width: var(--max-width);
+        margin: 20px;
+        
+
+        .intro{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: center;
+            gap: 40px;
+            background-color: var(--fundo-card);
+            border-radius: 12px;
+            border: 2px solid var(--borda);
+
+            .intro-container{
+                width: 50%;
+                margin-right: 5%;
+                padding: 20px;
+
+
+                .about{
+                    margin: 40px;
+                    padding: 1.5rem 1.5rem 1.5rem 2rem;
+                    position: relative;
+
+                    p{
+                        text-indent: 20px;
+                        color: var(--texto-secundario);
+                    }
+                }
+                
+                .about::before{
+                    content: '';
+                    position: absolute;
+                    left: -15px;
+                    top: 7.5%;
+                    height: 85%;
+                    width: 6px;
+                    background: var(--cor-ods);
+                    border-radius: 999px; 
+                }
+            
+            }
+
+            .offer{
+                width: 40%;
+                padding: 20px;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+
+                .offer-image{
+                    width: 150px;
+                    height: auto;
+                }
+
+                .offer-content{
+                    width: 50%;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    p{
+
+                        color: var(--texto-principal);
+                        font-weight: bold;
+                    }
+
+                    .btn-cta{
+                        margin-top: 20px;
+                        padding: 10px 20px;
+                        background-color: var(--cor-ods);
+                        color: var(--fundo-card);
+                        border: 1px solid #000;
+                        border-radius: 8px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+                        display: flex;
+                        align-items: center;
+
+                        .lucide{
+                            display: block;
+                            flex-shrink: 0;
+                            width: 2.4rem;
+                            height: auto;
+                        }
+
+                        &:hover{
+                            background-color: var(--cor-ods-hover);
+                            transform: scale(1.005);
+                            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.027);
+                        }
+
+                        .button-content{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            width:fit-content;
+                            margin: 0 auto;
+                            gap: 8px;
+                            
+                        }
+                    }
+                }
+            }
+
+            .offer::before{
+                content: '';
+                position: absolute;
+                left: -5px;
+                top: 15%;
+                height: 70%;
+                width: 2px;
+                background: var(--footer-fundo);
+                opacity: 0.6;
+                border-radius: 999px;
+            }
+        }
+    }
+
+    .student-image{
+        width: 200px;
+        height: auto;
+    }
+
+    
+}
