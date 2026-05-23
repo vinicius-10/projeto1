@@ -26,7 +26,8 @@ header {
         .logo {
             display: flex;         
             align-items: center;   
-            gap: 10px;             
+            gap: 10px;         
+            font-weight: bold;    
 
             .logo-image {
                 width: 5rem;         
@@ -34,20 +35,8 @@ header {
             }
 
             .logo-text {
-            display: flex;
-            flex-direction: row;
-
-            .text1 {
-                color: var(--texto-principal);
-                font-size: 4rem;
-                font-weight: bold;
-            }
-
-            .text2 {
-                color: var(--cor-ods);
-                font-size: 4rem;
-                font-weight: bold;
-            }
+                display: flex;
+                flex-direction: row;
             }
         }
 
@@ -70,12 +59,12 @@ header {
                 padding: 8px 20px;
                 border-radius: 8px; 
                 font-weight: 600;
-                font-size: 2rem;
+                
                 transition: all 0.2s ease-in-out;
 
             
             .material-symbols-outlined {
-                font-size: 2.2rem; 
+                
                 color: inherit;    
             }
         }

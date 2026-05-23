@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partência</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,16 +32,16 @@
             <a href="landingPage.html" class="logo">
                 <img src="/imagens/logo.svg" alt="Logo da Partência" class="logo-image"> 
                 
-                <div class="logo-text">
-                    <div class="text1">Part</div>
-                    <div class="text2">ência</div>
+                <div class="logo-text fontGig">
+                    <div class="colorPrimary">Part</div>
+                    <div class="colorODS">ência</div>
                 </div>
             </a>
 
             <nav>
                 <ul>
                     <li>
-                    <a href="login.html" class="btn-sair">
+                    <a href="login.html" class="btn-sair fontNormal">
                         <span class="material-symbols-outlined">logout</span> 
                         Sair
                     </a>
@@ -51,15 +52,20 @@
     </header>
     
     <main>
-        <section id="intro">
-            <div class="main-container intro-container">
-                <div class="about"> 
-                    <h2>Bem-vindo ao Partência</h2>
-                    <p></p>
-                </div>
+        <div class="main-container">
+            
+            <section id="intro">
+                <div class="intro-container">
+                    <div class="about"> 
+                        <h2 class="fontBig flexInline">Bem-vindo ao &nbsp <div class="colorPrimary">Part</div><div class="colorODS">ência</div> </h2>
+                        <p class="fontNormal">Grandes jornadas acadêmicas não são trilhadas individualmente, e o verdadeiro aprendizado nasce quando decidimos dar o primeiro passo juntos. O Partência nasceu justamente dessa filosofia: ser o ponto de partida para a partilha de experiências, vivências e conhecimentos dentro da nossa comunidade universitária. Aqui, acreditamos que a graduação se torna mais rica quando transformamos o saber em uma via de mão dupla, onde ninguém está tão engajado que não possa aprender algo novo, e ninguém está tão no início que não tenha uma experiência valiosa para compartilhar.</p>
+                        <p class="fontNormal">Se você está enfrentando uma disciplina desafiadora, este é o lugar para encontrar o empurrão inicial e o suporte de quem já superou esse mesmo obstáculo. Se você já domina um assunto, este é o seu espaço para oferecer mentoria, estender a mão aos colegas e consolidar o seu próprio aprendizado através do ensino — além, é claro, de garantir suas horas complementares pelo tempo dedicado à comunidade. Conecte sua agenda, partilhe sua bagagem e transforme a rotina acadêmica ao nosso lado.</p>
+                    </div>
 
-            </div>
-        </section>
+                </div>
+                
+            </section>
+        </div>
         
 
     </main>
@@ -69,33 +75,33 @@
                 <span class="brand-logo"><img src="/imagens/logo.svg" alt="Logo da Partência" class="logo-image"></span>
 
                 <div class="brand-text">
-                    <h3>Partência</h3>
-                    <p>Conectando pessoas, compartilhando conhecimento.</p>
-                    <p>ODS 4 &mdash; Educação de Qualidade</p>
-                    <p class="copyright">&copy; 2026 Partência. Todos os direitos reservados.</p>
+                    <h3 class="fontMedium">Partência</h3>
+                    <p class="fontSmall">Conectando pessoas, compartilhando conhecimento.</p>
+                    <p class="fontSmall">ODS 4 &mdash; Educação de Qualidade</p>
+                    <p class="fontTiny copyright">&copy; 2026 Partência. Todos os direitos reservados.</p>
                 </div>
             </div>
 
             <div class="footer-contact">
-                <h4>Desenvolvido por Vinicius Dias</h4>
+                <h4 class="fontNormal">Desenvolvido por Vinicius Dias</h4>
 
                 <ul>
                     <li>
-                        <a href="https://github.com/vinicius-10" target="_blank">
+                        <a href="https://github.com/vinicius-10" target="_blank" class="fontSmall">
                             <i class="fa-brands fa-github"></i>
                             github.com/vinicius-10
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/in/vinicius-dias-dev/" target="_blank">
+                        <a href="https://www.linkedin.com/in/vinicius-dias-dev/" target="_blank" class="fontSmall">
                             <i class="fa-brands fa-linkedin"></i>
                             linkedin.com/in/vinicius-dias-dev
                         </a>
                     </li>
 
                     <li>
-                        <a href="mailto:vinicius.2023@alunos.utfpr.edu.br">
+                        <a href="mailto:vinicius.2023@alunos.utfpr.edu.br" class="fontSmall">
                             <i class="fa-solid fa-envelope"></i>
                             vinicius.2023@alunos.utfpr.edu.br
                         </a>
