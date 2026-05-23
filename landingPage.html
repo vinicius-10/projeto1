@@ -82,91 +82,52 @@
 
             <section class="mural-container">
                 <div class="filter-container">
-                    <div class="filter-text">
-                        <label for="filter" class="fontMedium">Filtrar por matéria:</label>
-                        <input type="text" id="filter" placeholder="Ex: Matemática, Física..." class="filter-input fontSmall">
-                    </div>
 
-                    <div class="filter-options">
-                        <p class="fontMedium">Area:</p>
-                        <label for="filter[0]" class="fontSmall">Matemática</label>
-                        <input type="checkbox" id="filter[0]" name="filter" value="matematica">
+                    <div class="filter-content">
+                        <div class="filter-text">
+                            <label for="filter" class="fontMedium">Filtrar por matéria:</label>
+                            <input type="text" id="filter" placeholder="Ex: Matemática, Física..." class="filter-input fontSmall">
+                        </div>
 
-                        <label for="filter[1]" class="fontSmall">Física</label>
-                        <input type="checkbox" id="filter[1]" name="filter" value="fisica">
+                        <div class="filter-options">
+                            <p class="fontMedium">Area:</p>
+                            
+                            <div class="container-checkboxes">
+                                <label for="filter[0]" class="fontNormal">Matemática
+                                    <input type="checkbox" id="filter[0]" name="filter" value="matematica" checked> 
+                                </label>
 
-                        <label for="filter[2]" class="fontSmall">Química</label>
-                        <input type="checkbox" id="filter[2]" name="filter" value="quimica">
+                                <label for="filter[1]" class="fontNormal">Física
+                                    <input type="checkbox" id="filter[1]" name="filter" value="fisica">
+                                </label>
 
-                        <label for="filter[3]" class="fontSmall">Biologia</label>
-                        <input type="checkbox" id="filter[3]" name="filter" value="biologia">
+                                <label for="filter[2]" class="fontNormal">Química
+                                    <input type="checkbox" id="filter[2]" name="filter" value="quimica">
+                                </label>
 
+                                <label for="filter[3]" class="fontNormal">Biologia
+                                    <input type="checkbox" id="filter[3]" name="filter" value="biologia">
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="list-container" id="list-container">
-                    <div class="card-container">
+
+                    <div class="card-container" id="id[0]">
                         <div class="card-text">
                             <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
+                            <p class="fontNormal">João da Silva</p>
                             <p class="fontSmall">UTFPR-CP</p>
                         </div>
                         
                         <div class="card-calender">
-                            <table class="cal">
+                            <table class="cal fontSmall">
                                 <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="turno" rowspan="2">M</td>
-                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">T</td>
-                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">N</td>
-                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-actions">
-                            <button class="btn-cta">
-                                Ver mais
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card-container">
-                        <div class="card-text">
-                            <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
-                            <p class="fontSmall">UTFPR-CP</p>
-                        </div>
-                        
-                        <div class="card-calender">
-                            <table class="cal">
-                                <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -203,166 +164,21 @@
                         </div>
                     </div>
                     
-                    <div class="card-container">
+                    
+                    
+                    <div class="card-container" id="id[0]">
                         <div class="card-text">
                             <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
+                            <p class="fontNormal">João da Silva</p>
                             <p class="fontSmall">UTFPR-CP</p>
                         </div>
                         
                         <div class="card-calender">
-                            <table class="cal">
+                            <table class="cal fontSmall">
                                 <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="turno" rowspan="2">M</td>
-                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">T</td>
-                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">N</td>
-                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-actions">
-                            <button class="btn-cta">
-                                Ver mais
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card-container">
-                        <div class="card-text">
-                            <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
-                            <p class="fontSmall">UTFPR-CP</p>
-                        </div>
-                        
-                        <div class="card-calender">
-                            <table class="cal">
-                                <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="turno" rowspan="2">M</td>
-                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">T</td>
-                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">N</td>
-                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-actions">
-                            <button class="btn-cta">
-                                Ver mais
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card-container">
-                        <div class="card-text">
-                            <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
-                            <p class="fontSmall">UTFPR-CP</p>
-                        </div>
-                        
-                        <div class="card-calender">
-                            <table class="cal">
-                                <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="turno" rowspan="2">M</td>
-                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">T</td>
-                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="turno" rowspan="2">N</td>
-                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-actions">
-                            <button class="btn-cta">
-                                Ver mais
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card-container">
-                        <div class="card-text">
-                            <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
-                            <p class="fontSmall">UTFPR-CP</p>
-                        </div>
-                        
-                        <div class="card-calender">
-                            <table class="cal">
-                                <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -400,19 +216,19 @@
                     </div>
 
 
-                    <div class="card-container">
+                    <div class="card-container" id="id[0]">
                         <div class="card-text">
                             <h4 class="fontNormal">Matemática</h4>
-                            <p class="fontSmall">João da Silva</p>
+                            <p class="fontNormal">João da Silva</p>
                             <p class="fontSmall">UTFPR-CP</p>
                         </div>
                         
                         <div class="card-calender">
-                            <table class="cal">
+                            <table class="cal fontSmall">
                                 <thead>
-                                    <tr>
-                                    <th></th>
-                                    <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -448,6 +264,508 @@
                             </button>
                         </div>
                     </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-container" id="id[0]">
+                        <div class="card-text">
+                            <h4 class="fontNormal">Matemática</h4>
+                            <p class="fontNormal">João da Silva</p>
+                            <p class="fontSmall">UTFPR-CP</p>
+                        </div>
+                        
+                        <div class="card-calender">
+                            <table class="cal fontSmall">
+                                <thead>
+                                    <tr clas>
+                                        <th></th>
+                                        <th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="turno" rowspan="2">M</td>
+                                        <td class="on"></td><td></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td class="on"></td><td></td><td></td><td></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">T</td>
+                                        <td></td><td></td><td class="on"></td><td></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td class="on"></td><td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="turno" rowspan="2">N</td>
+                                        <td></td><td></td><td></td><td class="on"></td><td></td><td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td><td></td><td></td><td></td><td></td><td class="on"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-cta">
+                                Ver mais
+                            </button>
+                        </div>
+                    </div>
+
+
+                    
                 </div>
 
             </section>

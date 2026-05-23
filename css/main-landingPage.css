@@ -76,41 +76,7 @@ main{
                         font-weight: bold;
                     }
 
-                    .btn-cta{
-                        margin-top: 20px;
-                        padding: 10px 20px;
-                        background-color: var(--cor-ods);
-                        color: var(--fundo-card);
-                        border: 1px solid #000;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
-                        display: flex;
-                        align-items: center;
-
-                        .lucide{
-                            display: block;
-                            flex-shrink: 0;
-                            width: 2.4rem;
-                            height: auto;
-                        }
-
-                        &:hover{
-                            background-color: var(--cor-ods-hover);
-                            transform: scale(1.005);
-                            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.027);
-                        }
-
-                        .button-content{
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            width:fit-content;
-                            margin: 0 auto;
-                            gap: 8px;
-                            
-                        }
-                    }
+                    
                 }
             }
 
@@ -128,37 +94,143 @@ main{
         }
 
 
-        .cal {
-            border-collapse: collapse;
-            font-size: 12px;
+        .mural-container{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            margin-top: 40px;
+
+
+            .filter-container{
+                padding: 20px;
+                width: 17%;
+                background-color: var(--fundo-card);
+                border-radius: 12px;
+                border: 2px solid var(--borda);  
+                
+                .filter-content{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    gap: 10px;
+
+                    position: sticky;
+                    top: 9rem;
+
+                    .filter-text{
+                        color: var(--texto-principal);
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        
+
+                        .filter-input{
+                            padding: 10px;
+                            border: 1px solid var(--borda);
+                            border-radius: 8px;
+                            background-color: var(--fundo-canvas);
+                        }
+                    }
+
+                    .filter-options{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        p{
+                            color: var(--texto-principal);
+                        }
+
+                        .container-checkboxes{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-end;
+                            gap: 15px;
+
+                            label{
+                                cursor: pointer;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 10px;
+                                color: var(--texto-secundario);
+
+                                input[type="checkbox"]{
+                                    width: 16px;
+                                    height: 16px;
+                                    accent-color: var(--cor-ods);
+                                }
+                            }
+
+                            
+                        }
+                            
+                    }
+                }
+                
+            }
+
+            .list-container{
+                flex: 1;
+                padding: 40px;
+
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 40px;
+
+                .card-container{
+                    width: 300px;
+                    background-color: var(--fundo-card);
+                    border-radius: 12px;
+                    border: 2px solid var(--borda);
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+
+                    .card-text{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        line-height: 1rem;
+                    }
+
+                    .cal {
+                        border-collapse: collapse;
+                    }
+
+                    .cal th, .cal td {
+                        width: 20px;
+                        height: 20px;
+                        text-align: center;
+                        border: 0.1px dashed  var(--borda);
+                        color: var(--texto-secundario);
+                    }
+
+                    .cal th {
+                        font-weight: 500;
+                        color: var(--texto-secundario);
+                        height: 24px;
+                    }
+
+                    .cal td.turno {
+                        font-weight: 500;
+                        background-color: var(--fundo-card);
+                        width: 28px;
+                    }
+
+                    .cal td.on {
+                        background: var(--cor-ods);
+                        border-color: var(--cor-ods);
+                    }
+                }
+            }
+
+            
+
         }
 
-        .cal th,
-        .cal td {
-            width: 52px;
-            height: 32px;
-            text-align: center;
-            border: 0.5px solid var(--borda);
-            color: var(--texto-secundario);
-        }
-
-        .cal th {
-            font-weight: 500;
-            font-size: 11px;
-            color: var(--texto-secundario);
-            height: 24px;
-        }
-
-        .cal td.turno {
-            font-weight: 500;
-            background-color: var(--fundo-card);
-            width: 28px;
-        }
-
-        .cal td.on {
-            background: var(--cor-ods);
-            border-color: var(--cor-ods);
-        }
+        
     }
 
     .student-image{
@@ -166,5 +238,41 @@ main{
         height: auto;
     }
 
+    .btn-cta{
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: var(--cor-ods);
+        color: var(--fundo-card);
+        border: 1px solid #000;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .lucide{
+            display: block;
+            flex-shrink: 0;
+            width: 2.4rem;
+            height: auto;
+        }
+
+        &:hover{
+            background-color: var(--cor-ods-hover);
+            transform: scale(1.005);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.027);
+        }
+
+        .button-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width:fit-content;
+            gap: 8px;
+        }
+    }
+
     
 }
+
