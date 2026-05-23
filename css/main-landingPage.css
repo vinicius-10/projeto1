@@ -126,6 +126,39 @@ main{
                 border-radius: 999px;
             }
         }
+
+
+        .cal {
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        .cal th,
+        .cal td {
+            width: 52px;
+            height: 32px;
+            text-align: center;
+            border: 0.5px solid var(--borda);
+            color: var(--texto-secundario);
+        }
+
+        .cal th {
+            font-weight: 500;
+            font-size: 11px;
+            color: var(--texto-secundario);
+            height: 24px;
+        }
+
+        .cal td.turno {
+            font-weight: 500;
+            background-color: var(--fundo-card);
+            width: 28px;
+        }
+
+        .cal td.on {
+            background: var(--cor-ods);
+            border-color: var(--cor-ods);
+        }
     }
 
     .student-image{
