@@ -36,7 +36,7 @@ A dinâmica elimina intermediários burocráticos: através de uma interface mod
 ## 👥 Público-Alvo
 - Alunos de ensino médio e graduação que enfrentam dificuldades em disciplinas específicas e buscam apoio.
 - Estudantes veteranos ou proficientes dispostos a ensinar e validar horas complementares.
-- Comunidade acadêmicainteressada em reduzir os índices de retenção em matérias.
+- Comunidade acadêmica interessada em reduzir os índices de retenção em matérias.
   
 ## 📂 Estrutura do Projeto
 O repositório está organizado de forma modular para o desenvolvimento front-end com 3 páginas principais:
