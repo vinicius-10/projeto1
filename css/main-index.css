@@ -248,6 +248,12 @@ main{
                 }
             }
 
+            .lucide{
+                color: var(--cor-ods);
+                width: 4rem;
+                height: auto;
+            }
+
         }
         
         .divider{
