@@ -63,13 +63,13 @@ PROJETO1/
         └── favicon180.png
 ```
 
-🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 - Estruturação: HTML5 Semântico
 - Estilização e Layout: CSS3 (Variáveis nativas, Flexbox e CSS Grid Avançado)
 - Design System: Baseado na identidade cromática do ODS 4 da ONU (#C5192D) e Tipografia Inter (Google Fonts)
 - Pacote de Ícones: Lucide Icons, google fonts e Font Awesome
 - Versionamento: Git + GitHub
 
-👥 Integrantes
+## 👥 Integrantes
 - Vinicius Souza Dias
 
