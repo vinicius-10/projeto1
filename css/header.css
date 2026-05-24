@@ -72,7 +72,7 @@ header {
 
                 &:hover {
                     background-color: var(--cor-ods-hover); 
-                    color: var(--fundo-card);  
+                    color: var(--fundo-card);
                     
                     transform: scale(1.07);
                     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);

@@ -84,3 +84,6 @@ p{
   flex-wrap: wrap;
 }
 
+button:hover{
+  transform: scale(1.02);
+}
